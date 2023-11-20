@@ -6,7 +6,7 @@ import pandas as pd
 
 
 class SequenceEncoder:
-    def __init__(self, width=1024, height=1024, seq=None, radius=10, point_size=1):
+    def __init__(self, width=512, height=512, seq=None, radius=15, point_size=2):
         self.width = width
         self.height = height
         self.seq = seq
